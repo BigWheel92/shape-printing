@@ -1,4 +1,4 @@
-# shape-printing
+# shapes-printing
 implementation of a few shapes in C++
 
 The following functions have been implemented:
