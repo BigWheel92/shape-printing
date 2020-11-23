@@ -2,7 +2,7 @@
 using namespace std;
 
 void printHourGlassNumericPattern(short const size);
-void printCrossUsingNumbers(short size);
+void printCrossUsingNumbers(short const size);
 void printDiamond(short const size);
 void printHollowDiamondInFrame(short const size);
 void printHollowDiamond(short const size);
@@ -19,7 +19,7 @@ void printMirroredInvertedRightTriangle(short const size);
 void print8StarPattern(short const size);
 void printHollowRightTriangle(short const size);
 void printInvertedHollowRightTriangle(short const size);
-void printMirroredHollowRightTriangle(short size);
+void printMirroredHollowRightTriangle(short const size);
 
 int main()
 {
@@ -395,7 +395,7 @@ void printHourGlassNumericPattern(short const size)
 	}
 }
 
-void printCrossUsingNumbers(short size)
+void printCrossUsingNumbers(short const size)
 {
 	//printing upper half.
 	for (short i = 1; i <= size; i++)
