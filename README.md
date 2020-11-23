@@ -5,7 +5,7 @@ The following functions have been implemented:
 
 1. void printHourGlassNumericPattern(short const size);
 
-2. void printCrossUsingNumbers(short size);
+2. void printCrossUsingNumbers(short const size);
 
 3. void printDiamond(short const size);
 
@@ -39,4 +39,4 @@ The following functions have been implemented:
 
 18. void printInvertedHollowRightTriangle(short const size);
 
-19. void printMirroredHollowRightTriangle(short size);
+19. void printMirroredHollowRightTriangle(short const size);
